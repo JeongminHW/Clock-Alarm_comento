@@ -8,7 +8,9 @@
 - 추가기능 1개(하고싶은 것) (알람 삭제, 시간마다 배경색 변화 ...)
 
 ## 2. 요구사항에 따라 피그마를 사용하여 초기 화면 구상
+### 시계(메인화면)
 ![clock(main)](https://github.com/JeongminHW/Clock-Alarm_comento/assets/114545423/650ff2fe-bbe5-44e7-a018-83ec03c56cb6)
+### 알람
 ![alarm](https://github.com/JeongminHW/Clock-Alarm_comento/assets/114545423/1fa24542-4d97-4349-a509-0214b225bc08)
 
 
