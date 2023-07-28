@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>알람</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js"></script>
+</head>
+<body>
+    <article id="topbar">
+        <div>
+            <header id="header">
+                <nav class="menubar">
+                    <ul>
+                        <li><a href="clock.html">시계</a></li>
+                        <li><a href="alarm.html">알람</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </article>
+
+    <article class="clockmain" id="alarmpage">
+        <div class="date" id="date"></div>
+        <div class="time" id="time"></div>
+    </article>
+    <div class="setalarm">
+        <div class="alarmtext">
+            알람 설정
+        </div>
+        <article class="selecttime">
+            <form class="hour">
+                <label>시</label>
+                <br>
+                <select class="seltime" name="selhour" id="selhour"></select>
+            </form>
+            <form class="min">
+            <label>분</label>
+            <br>
+            <select class="seltime" name="selmin" id="selmin"></select>
+            </form>
+            <form class="sec">
+            <label>초</label>
+            <br>
+            <select class="seltime" name="selsec" id="selsec"></select>
+            </form>
+            <input id="addbtn" type="button" value="추가" onclick="addAlarm()">
+        </article>
+    </div>
+
+    <div>
+        <div class="alarmtext">
+            알람 현황
+        </div>
+        <br>
+        <div id="alarmlist"></div>
+    </div>
+    
+</body>
+</html>

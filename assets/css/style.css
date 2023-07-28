@@ -1,0 +1,120 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.menubar *{
+    display: inline;
+}
+
+.menubar li{
+    font-size: 18px;
+}
+
+.menubar li:nth-child(2){
+    margin: 40px;
+}
+
+#header{
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    padding-bottom: 14px;
+}
+
+.battery{
+    display : flex;
+    justify-content: right; /* justify-content : 가로축 기준 | align-items : 세로축 기준 */
+	align-items : right; /* 큰 틀을 flex로 지정하고 속성을 오른쪽 정렬 */
+    padding: 20px;
+}
+
+.balance{
+    display : flex;
+	justify-content : center;
+	align-items : center; /* 큰 틀을 flex로 지정하고 속성을 정가운데 정렬 */
+    background: #4DEB66;
+    width: 120px;
+    height: 50px;
+    border-radius: 1rem;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.clockmain{
+    text-align: center;
+}
+
+#date{
+    font-size: 3rem;
+}
+
+#time{
+    font-size: 8rem;
+}
+
+#alarmpage{
+    padding-top: 50px;
+}
+
+.setalarm:after {
+    /* 알람 설정 아래 밑줄 */
+    content: "";
+    display: block;
+    width: 600px;
+    border-bottom: 1px solid #000;
+    margin: 20px auto;
+}
+
+.alarmtext{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 710px;
+}
+
+.selecttime{
+    display : flex;
+	justify-content : center;
+	align-items : center;
+    margin: 16px;
+}
+
+form{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+label{
+    font-size: 20px;
+}
+
+.seltime{
+    font-size: 20px;
+}
+
+#addbtn{
+    font-size: 20px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#alarmlist{
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-left: 710px;
+}
+
+.delbtn{
+    font-size: 20px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
